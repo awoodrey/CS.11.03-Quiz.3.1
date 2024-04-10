@@ -2,30 +2,30 @@ public class Main {
 
 
     // Question 1 - calculateGrade {
-    static String calculateGrade(int yay) {
+    static char calculateGrade(int yay) {
         if ( yay >= 90){
-            return "A";
+            return 'A';
         } else if ( yay >= 80){
-            return "B";
+            return 'B';
         } else if (yay >= 70){
-            return "C";
+            return 'C';
         } else if (yay >= 60){
-            return "D";
+            return 'D';
         } else if (yay >= 50){
-            return "E";
+            return 'E';
         } else{
-            return "F";
+            return 'F';
         }
     }
     // }
     // Question 2 - fizzBuzz
-   static String fizzBuzz(String str) {
-       if (str.length() % 3 == 0) {
-           if (str.length() % 5 == 0) {
+   static String fizzBuzz(int whoo) {
+       if (whoo % 3 == 0) {
+           if (whoo % 5 == 0) {
                return "fizzbuzz";
            }
            return "fizz";
-       } else if (str.length() % 5 == 0) {
+       } else if (whoo % 5 == 0) {
            return "buzz";
        } else {
            return "unlucky";
@@ -56,6 +56,7 @@ static String endUp(String str) {
         //capitalise all
         // return
         // sorry mr ewing I forgot how to do this
+        return "sorry :(";
     }
     return str.substring(0, str.length() - 2) + str.substring(str.length() - 2);
 }
