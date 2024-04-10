@@ -41,7 +41,7 @@ public class Main {
     }
 
     // Question 4 - twoAsOne
-    //
+    // i love spaghetti
     //
     static boolean twoAsOne(int a, int b, int c) {
         if (a + b == c || b + c == a || a + c == b) {
